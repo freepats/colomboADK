@@ -1,0 +1,434 @@
+//+ Name: ColomboADK FreePats
+//+ Date: 2020-05-30
+//+ URL: https://freepats.zenvoid.org/
+
+<global>
+ //+ Instrument: ColomboADK FreePats
+ ampeg_release=100
+ loop_mode=no_loop
+
+
+// Bass Drum
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=0 hivel=55
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/BassDrum-LV1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/BassDrum-LV2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=56 hivel=89
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/BassDrum-MV1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/BassDrum-MV2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=90 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/BassDrum-HV1.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/BassDrum-HV2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/BassDrum-HV3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/BassDrum-HV4.flac
+
+
+// Side Stick
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=0 hivel=69
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/SideStick-1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/SideStick-2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=70 hivel=127
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/SideStick-3.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/SideStick-4.flac
+
+
+// Side Stick 2
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SideStick-5.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SideStick-6.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SideStick-7.flac
+
+
+// Snare Drum
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=0 hivel=68
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/SnareDrum1-LV1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/SnareDrum1-LV2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=69 hivel=127
+<region>
+ lorand=0 hirand=0.1429
+ sample=samples/SnareDrum1-HV1.flac
+<region>
+ lorand=0.1429 hirand=0.2857
+ sample=samples/SnareDrum1-HV2.flac
+<region>
+ lorand=0.2857 hirand=0.4286
+ sample=samples/SnareDrum1-HV3.flac
+<region>
+ lorand=0.4286 hirand=0.5714
+ sample=samples/SnareDrum1-HV4.flac
+<region>
+ lorand=0.5714 hirand=0.7143
+ sample=samples/SnareDrum1-HV5.flac
+<region>
+ lorand=0.7143 hirand=0.8571
+ sample=samples/SnareDrum1-HV6.flac
+<region>
+ lorand=0.8571 hirand=1
+ sample=samples/SnareDrum1-HV7.flac
+
+
+// Snare Drum 2
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareDrum2-1.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareDrum2-2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareDrum2-3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareDrum2-4.flac
+
+
+// Snare Drum Dry
+
+<group>
+ key=53
+<region>
+ sample=samples/SnareDrumDry.flac
+
+
+// Low Tom
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/LowTom-1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/LowTom-2.flac
+
+
+// Mid Tom
+
+<group>
+ //+ RandomRegion: Yes
+ key=55
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/MidTom-1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/MidTom-2.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/MidTom-3.flac
+
+
+// High Tom
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/HiTom-1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/HiTom-2.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/HiTom-3.flac
+
+
+// Closed Hi-Hat
+
+<group>
+ //+ RandomRegion: Yes
+ key=57
+<region>
+ lorand=0 hirand=0.1439
+ sample=samples/ClosedHiHat-1.flac
+<region>
+ lorand=0.1429 hirand=0.2857
+ sample=samples/ClosedHiHat-2.flac
+<region>
+ lorand=0.2857 hirand=0.4286
+ sample=samples/ClosedHiHat-3.flac
+<region>
+ lorand=0.4286 hirand=0.5714
+ sample=samples/ClosedHiHat-4.flac
+<region>
+ lorand=0.5714 hirand=0.7143
+ sample=samples/ClosedHiHat-5.flac
+<region>
+ lorand=0.7143 hirand=0.8571
+ sample=samples/ClosedHiHat-6.flac
+<region>
+ lorand=0.8571 hirand=1
+ sample=samples/ClosedHiHat-7.flac
+
+
+// Open Hi-Hat
+
+<group>
+ //+ RandomRegion: Yes
+ key=58
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/OpenHiHat-1.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/OpenHiHat-2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/OpenHiHat-3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/OpenHiHat-4.flac
+
+
+// Semi Open Hi-Hat
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SemiOpenHiHat-1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SemiOpenHiHat-2.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SemiOpenHiHat-3.flac
+
+
+// Long Open Hi-Hat
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/LongOpenHiHat-1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/LongOpenHiHat-2.flac
+
+
+// Cymbal 16i Crash
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/Cymbal16iCrash-1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/Cymbal16iCrash-2.flac
+
+
+// Cymbal 16i Ride
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=0 hivel=109
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Cymbal16iRide-MV1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Cymbal16iRide-MV1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Cymbal16iRide-MV1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=110 hivel=127
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/Cymbal16iRide-HV1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/Cymbal16iRide-HV2.flac
+
+
+// Cymbal 16i Cup
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Cymbal16iCup-1.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Cymbal16iCup-2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Cymbal16iCup-3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Cymbal16iCup-4.flac
+
+
+// Cymbal 20i Crash
+
+<group>
+ key=64
+<region>
+ sample=samples/Cymbal20iCrash.flac
+
+
+// Cymbal 20i Ride
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=0 hivel=115
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Cymbal20iRide-MV1.flac
+<region>
+ lorand=0.3333 hirand=0.6666
+ sample=samples/Cymbal20iRide-MV2.flac
+<region>
+ lorand=0.6666 hirand=1
+ sample=samples/Cymbal20iRide-MV3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=116 hivel=127
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/Cymbal20iRide-HV1.flac
+<region>
+ lorand=0.5 hirand=1
+ volume=-2.5
+ sample=samples/Cymbal20iRide-HV2.flac
+
+
+// Cymbal 20i Cup
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Cymbal20iCup-1.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Cymbal20iCup-2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Cymbal20iCup-3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Cymbal20iCup-4.flac
+
+
+// Double Low Tom
+
+<group>
+ //+ RandomRegion: Yes
+ key=67
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/DoubleLowTom-1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/DoubleLowTom-2.flac
+
+
+// Double Mid Tom
+
+<group>
+ //+ RandomRegion: Yes
+ key=68
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/DoubleMidTom-1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/DoubleMidTom-2.flac
+
+
+// Double High Tom
+
+<group>
+ //+ RandomRegion: Yes
+ key=69
+<region>
+ lorand=0 hirand=0.5
+ sample=samples/DoubleHiTom-1.flac
+<region>
+ lorand=0.5 hirand=1
+ sample=samples/DoubleHiTom-2.flac
